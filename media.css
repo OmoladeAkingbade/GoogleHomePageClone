@@ -1,0 +1,70 @@
+@media screen and (max-width: 400px) {
+        
+    nav {
+        width: 90%;
+        margin-right: 10px;
+        
+    }
+    nav a {
+        font-size: 10px;
+        margin: 0 3px;
+    }
+    nav button {
+        padding: 4px 9px;
+    }
+    main img {
+        height: 2.5rem;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 768px) {
+        
+    nav {
+        width: 50%;
+        
+    }
+        
+    main{
+        width: 80%;
+        margin: 5.9em auto;
+    }
+    main img {
+        height: 6rem;
+    }
+        
+    .button_house button{
+        /* added margin-left */
+        margin-left: 5px; 
+        width: 7.5rem;
+        height: 2rem;
+        
+    }
+    /* google_languages styling goes below */
+    .google_languages{
+        
+        font-size: 11px;
+      
+    }
+        
+    .footer_bottom{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer_bottom div {
+        margin-bottom: auto;
+    }
+     
+}
+    
+    
+
+
+
+@media screen and (max-width: 1000px) {
+    nav {
+        width: 50%;
+        
+        
+    }
+} 
